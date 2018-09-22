@@ -1,0 +1,40 @@
+header#head-section{
+  background:url("./img/mountains.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin-top:100px;
+}
+
+.blue-overlay{
+  background:rgba(50, 146, 166, 0.8);
+  min-height: 100vh;
+}
+
+
+#authors .card-body:hover i{
+  color:white;
+}
+#authors img{
+  margin-top:-50px;
+  transition: 1s;
+}
+
+#authors .card-body:hover{
+  background:#17a2b8;
+  color:white !important;
+}
+
+#authors .card-body:hover img{
+  transform: rotate(360deg);
+}
+
+
+@media (max-width:500px){
+  #main-logo{
+    display: none;
+  }
+  .display-2{
+    font-size:50px;
+  }
+}
